@@ -12,5 +12,4 @@ Pod::Spec.new do |s|
   s.ios.frameworks        = ['UIKit', 'Foundation']
   s.author                = { 'Studyplus inc' => 'developer-all@studyplus.jp' }
   s.swift_versions        = ['4.2', '5.0']
-  s.dependency 'KeychainAccess', '3.2.0'
 end
