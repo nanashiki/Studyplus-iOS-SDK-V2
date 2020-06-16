@@ -26,7 +26,7 @@
 
 import Foundation
 
-public enum StudyplusError {
+public enum StudyplusError: Error {
     
     case getAppDescription       
     case authFailed              
